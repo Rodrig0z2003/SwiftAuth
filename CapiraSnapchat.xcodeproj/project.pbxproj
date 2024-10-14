@@ -3,15 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		9641203D2CBD566D00060A1C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9641203C2CBD566D00060A1C /* FirebaseAnalytics */; };
+		9641203F2CBD566D00060A1C /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 9641203E2CBD566D00060A1C /* FirebaseAnalyticsOnDeviceConversion */; };
+		964120412CBD566D00060A1C /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 964120402CBD566D00060A1C /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		964120432CBD566D00060A1C /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 964120422CBD566D00060A1C /* FirebaseAppCheck */; };
+		964120452CBD566D00060A1C /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 964120442CBD566D00060A1C /* FirebaseAppDistribution-Beta */; };
+		964120472CBD566D00060A1C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 964120462CBD566D00060A1C /* FirebaseAuth */; };
+		964120492CBD566D00060A1C /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 964120482CBD566D00060A1C /* FirebaseCore */; };
+		9641204B2CBD566D00060A1C /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9641204A2CBD566D00060A1C /* FirebaseDatabase */; };
+		9641204D2CBD566D00060A1C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9641204C2CBD566D00060A1C /* FirebaseStorage */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		964120212CBD51C900060A1C /* CapiraSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapiraSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		964120332CBD51CB00060A1C /* Exceptions for "CapiraSnapchat" folder in "CapiraSnapchat" target */ = {
+		964120332CBD51CB00060A1C /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,14 +33,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		964120232CBD51C900060A1C /* CapiraSnapchat */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				964120332CBD51CB00060A1C /* Exceptions for "CapiraSnapchat" folder in "CapiraSnapchat" target */,
-			);
-			path = CapiraSnapchat;
-			sourceTree = "<group>";
-		};
+		964120232CBD51C900060A1C /* CapiraSnapchat */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (964120332CBD51CB00060A1C /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CapiraSnapchat; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964120432CBD566D00060A1C /* FirebaseAppCheck in Frameworks */,
+				964120472CBD566D00060A1C /* FirebaseAuth in Frameworks */,
+				9641204D2CBD566D00060A1C /* FirebaseStorage in Frameworks */,
+				9641203D2CBD566D00060A1C /* FirebaseAnalytics in Frameworks */,
+				964120452CBD566D00060A1C /* FirebaseAppDistribution-Beta in Frameworks */,
+				964120492CBD566D00060A1C /* FirebaseCore in Frameworks */,
+				964120412CBD566D00060A1C /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				9641204B2CBD566D00060A1C /* FirebaseDatabase in Frameworks */,
+				9641203F2CBD566D00060A1C /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,15 @@
 			);
 			name = CapiraSnapchat;
 			packageProductDependencies = (
+				9641203C2CBD566D00060A1C /* FirebaseAnalytics */,
+				9641203E2CBD566D00060A1C /* FirebaseAnalyticsOnDeviceConversion */,
+				964120402CBD566D00060A1C /* FirebaseAnalyticsWithoutAdIdSupport */,
+				964120422CBD566D00060A1C /* FirebaseAppCheck */,
+				964120442CBD566D00060A1C /* FirebaseAppDistribution-Beta */,
+				964120462CBD566D00060A1C /* FirebaseAuth */,
+				964120482CBD566D00060A1C /* FirebaseCore */,
+				9641204A2CBD566D00060A1C /* FirebaseDatabase */,
+				9641204C2CBD566D00060A1C /* FirebaseStorage */,
 			);
 			productName = CapiraSnapchat;
 			productReference = 964120212CBD51C900060A1C /* CapiraSnapchat.app */;
@@ -99,6 +122,7 @@
 				};
 			};
 			buildConfigurationList = 9641201C2CBD51C900060A1C /* Build configuration list for PBXProject "CapiraSnapchat" */;
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,7 +131,9 @@
 			);
 			mainGroup = 964120182CBD51C900060A1C;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			packageReferences = (
+				9641203B2CBD566D00060A1C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 964120222CBD51C900060A1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -333,6 +359,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9641203B2CBD566D00060A1C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 12.0.0;
+				minimumVersion = 11.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9641203C2CBD566D00060A1C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9641203B2CBD566D00060A1C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		9641203E2CBD566D00060A1C /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9641203B2CBD566D00060A1C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		964120402CBD566D00060A1C /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9641203B2CBD566D00060A1C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		964120422CBD566D00060A1C /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9641203B2CBD566D00060A1C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		964120442CBD566D00060A1C /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9641203B2CBD566D00060A1C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		964120462CBD566D00060A1C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9641203B2CBD566D00060A1C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		964120482CBD566D00060A1C /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9641203B2CBD566D00060A1C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		9641204A2CBD566D00060A1C /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9641203B2CBD566D00060A1C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		9641204C2CBD566D00060A1C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9641203B2CBD566D00060A1C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 964120192CBD51C900060A1C /* Project object */;
 }
